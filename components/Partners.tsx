@@ -51,9 +51,9 @@ export default function Partners() {
           className="relative"
         >
           <div className="relative bg-white rounded-2xl p-4 md:p-8 lg:p-12 shadow-xl border border-gray-100 overflow-hidden">
-            <div className="relative w-full" style={{ marginTop: '-60px' }}>
+            <div className="relative w-full">
               <Image
-                src="/logos/all-logo.jpg"
+                src="/logos/all-logo2.png"
                 alt="Our Partners"
                 width={1400}
                 height={800}
