@@ -1,28 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-
-const partners = [
-  { name: "Partner 1" },
-  { name: "Partner 2" },
-  { name: "Partner 3" },
-  { name: "Partner 4" },
-  { name: "Partner 5" },
-  { name: "Partner 6" },
-  { name: "Partner 7" },
-  { name: "Partner 8" },
-  { name: "Partner 9" },
-  { name: "Partner 10" },
-  { name: "Partner 11" },
-  { name: "Partner 12" },
-  { name: "Partner 13" },
-  { name: "Partner 14" },
-  { name: "Partner 15" },
-  { name: "Partner 16" },
-  { name: "Partner 17" },
-  { name: "Partner 18" },
-  { name: "Partner 19" },
-]
+import Image from "next/image"
 
 export default function Partners() {
   return (
@@ -63,43 +42,46 @@ export default function Partners() {
           />
         </motion.div>
 
-        {/* Partners Grid */}
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
-          {partners.map((partner, i) => (
-            <motion.div
-              key={i}
-              initial={{ opacity: 0, y: 40 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              transition={{ 
-                duration: 0.6, 
-                delay: i * 0.05,
-                ease: "easeOut"
-              }}
-              viewport={{ once: true, amount: 0.3 }}
-              whileHover={{ 
-                scale: 1.05,
-                transition: { duration: 0.2 }
-              }}
-              className="group"
-            >
-              <div className="relative bg-white rounded-xl p-8 shadow-md hover:shadow-xl transition-all duration-300 border border-gray-100 hover:border-green-200 aspect-square flex items-center justify-center">
-                
-                {/* Mock Logo - Placeholder */}
-                <div className="relative w-full h-full flex flex-col items-center justify-center gap-2">
-                  <div className="w-16 h-16 bg-gradient-to-br from-green-400 to-green-600 rounded-lg flex items-center justify-center text-white font-bold text-2xl group-hover:scale-110 transition-transform duration-300">
-                    {i + 1}
-                  </div>
-                  <span className="text-xs text-gray-400 group-hover:text-green-600 transition-colors duration-300 font-medium">
-                    {partner.name}
-                  </span>
-                </div>
+        {/* All Logos Image */}
+        <motion.div
+          initial={{ opacity: 0, y: 60 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.9, delay: 0.2 }}
+          viewport={{ once: true }}
+          className="relative"
+        >
+          <div className="relative bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-100 overflow-hidden">
+            <div className="relative w-full" style={{ marginTop: '-160px' }}>
+              <Image
+                src="/logos/all-logo.jpg"
+                alt="Our Partners"
+                width={1400}
+                height={800}
+                className="w-full h-auto object-contain"
+                priority
+              />
+            </div>
 
-                {/* Hover Effect Border */}
-                <div className="absolute inset-0 rounded-xl border-2 border-green-500/0 group-hover:border-green-500/20 transition-all duration-300" />
-              </div>
-            </motion.div>
-          ))}
-        </div>
+            {/* Decorative Border */}
+            <div className="absolute inset-0 rounded-2xl border-4 border-green-500/10 pointer-events-none" />
+          </div>
+
+          {/* Decorative Elements */}
+          <motion.div
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.5 }}
+            viewport={{ once: true }}
+            className="absolute -top-6 -left-6 w-32 h-32 bg-green-500/10 rounded-full blur-2xl"
+          />
+          <motion.div
+            initial={{ scale: 0 }}
+            whileInView={{ scale: 1 }}
+            transition={{ duration: 0.6, delay: 0.7 }}
+            viewport={{ once: true }}
+            className="absolute -bottom-6 -right-6 w-40 h-40 bg-green-500/10 rounded-full blur-2xl"
+          />
+        </motion.div>
 
         {/* Bottom Text */}
         <motion.div
