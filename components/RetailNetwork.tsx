@@ -7,7 +7,7 @@ export default function RetailNetwork() {
   return (
     <section className="py-32 bg-white overflow-hidden">
 
-      <div className="max-w-[1600px] mx-auto grid lg:grid-cols-[400px_1fr] gap-12 px-6 items-start">
+      <div className="max-w-[1600px] mx-auto grid lg:grid-cols-[400px_1fr] gap-8 md:gap-12 px-6 items-start">
 
         {/* LEFT */}
 
@@ -16,7 +16,7 @@ export default function RetailNetwork() {
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="space-y-8 sticky top-8"
+          className="space-y-6 md:space-y-8 lg:sticky lg:top-8"
         >
 
           {/* Logo Container */}
@@ -87,7 +87,7 @@ export default function RetailNetwork() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.3 }}
               viewport={{ once: true }}
-              className="absolute top-10 left-10 text-white text-4xl lg:text-5xl font-bold drop-shadow-lg"
+              className="absolute top-6 md:top-10 left-6 md:left-10 text-white text-2xl md:text-4xl lg:text-5xl font-bold drop-shadow-lg"
             >
               <span className="text-green-400">Retail Market</span>
               <br />
@@ -100,12 +100,12 @@ export default function RetailNetwork() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
               viewport={{ once: true }}
-              className="absolute bottom-10 right-10 text-right text-white"
+              className="absolute bottom-6 md:bottom-10 right-6 md:right-10 text-right text-white"
             >
-              <p className="text-4xl lg:text-5xl font-bold text-green-400 mb-2">
+              <p className="text-3xl md:text-4xl lg:text-5xl font-bold text-green-400 mb-2">
                 100+
               </p>
-              <p className="text-lg lg:text-xl text-white/90 font-medium">
+              <p className="text-base md:text-lg lg:text-xl text-white/90 font-medium">
                 Local shops around<br />
                 central region
               </p>

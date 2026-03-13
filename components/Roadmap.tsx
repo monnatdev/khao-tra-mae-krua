@@ -69,11 +69,11 @@ export default function Roadmap() {
 
               <motion.div
                 whileHover={{ scale: 1.02 }}
-                className="bg-white/95 backdrop-blur-md shadow-xl rounded-xl p-6 max-w-5xl flex gap-6"
+                className="bg-white/95 backdrop-blur-md shadow-xl rounded-xl p-4 md:p-6 max-w-5xl w-full flex flex-col md:flex-row gap-4 md:gap-6"
               >
 
                 {/* image */}
-                <div className="w-40 h-40 relative flex-shrink-0">
+                <div className="w-full md:w-32 h-32 md:h-32 relative flex-shrink-0">
                   <Image
                     src={item.image}
                     alt="rice"
@@ -83,13 +83,13 @@ export default function Roadmap() {
                 </div>
 
                 {/* text */}
-                <div>
+                <div className="flex-1">
 
-                  <h3 className="font-bold text-sm mb-2 tracking-wide">
+                  <h3 className="font-bold text-xs md:text-sm mb-2 tracking-wide">
                     {item.title}
                   </h3>
 
-                  <p className="text-sm text-gray-600 leading-relaxed whitespace-pre-line">
+                  <p className="text-xs md:text-sm text-gray-600 leading-relaxed whitespace-pre-line">
                     {item.text}
                   </p>
 

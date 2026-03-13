@@ -18,7 +18,7 @@ export default function Partners() {
           className="text-center mb-20"
         >
           <motion.h2 
-            className="text-5xl font-bold text-green-700 mb-4"
+            className="text-4xl md:text-5xl font-bold text-green-700 mb-4"
           >
             OUR PARTNERS
           </motion.h2>
@@ -27,7 +27,7 @@ export default function Partners() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-xl text-gray-600 max-w-2xl mx-auto"
+            className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto"
           >
             Trusted by leading organizations worldwide
           </motion.p>
@@ -50,8 +50,8 @@ export default function Partners() {
           viewport={{ once: true }}
           className="relative"
         >
-          <div className="relative bg-white rounded-2xl p-8 md:p-12 shadow-xl border border-gray-100 overflow-hidden">
-            <div className="relative w-full" style={{ marginTop: '-160px' }}>
+          <div className="relative bg-white rounded-2xl p-4 md:p-8 lg:p-12 shadow-xl border border-gray-100 overflow-hidden">
+            <div className="relative w-full" style={{ marginTop: '-60px' }}>
               <Image
                 src="/logos/all-logo.jpg"
                 alt="Our Partners"

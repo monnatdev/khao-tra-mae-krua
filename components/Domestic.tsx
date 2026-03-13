@@ -33,10 +33,10 @@ export default function Domestic() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold text-green-700 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-green-700 mb-4">
             DOMESTIC MARKET
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
             Serving quality agricultural products across Thailand
           </p>
         </motion.div>
@@ -76,10 +76,10 @@ export default function Domestic() {
               viewport={{ once: true }}
               className="absolute bottom-0 left-0 right-0 p-8 md:p-12"
             >
-              <h3 className="text-4xl md:text-6xl font-bold text-white mb-4">
+              <h3 className="text-3xl md:text-4xl lg:text-6xl font-bold text-white mb-4">
                 Domestic
               </h3>
-              <p className="text-lg text-white/90 max-w-2xl">
+              <p className="text-base md:text-lg text-white/90 max-w-2xl">
                 Building strong partnerships with local businesses and communities
               </p>
             </motion.div>

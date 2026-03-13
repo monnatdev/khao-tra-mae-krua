@@ -26,7 +26,7 @@ export default function ParallaxImage({
       <motion.img
         src={src}
         style={{ y }}
-        className="w-full h-[600px] md:h-[700px] object-cover"
+        className="w-full h-[350px] md:h-[600px] lg:h-[700px] object-cover"
       />
     </div>
   )

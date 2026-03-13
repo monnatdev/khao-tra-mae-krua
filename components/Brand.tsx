@@ -22,7 +22,7 @@ export default function Brand() {
         <div className="absolute inset-0 bg-white/40" />
       </div>
 
-      <div className="relative z-10 max-w-7xl mx-auto px-10 w-full grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 md:px-10 w-full grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16 items-center py-12 md:py-0">
 
         {/* LEFT SECTION */}
         <motion.div
@@ -40,22 +40,22 @@ export default function Brand() {
           >
             <img
               src="/logos/logo3.png"
-              className="w-28"
+              className="w-20 md:w-28"
             />
           </motion.div>
 
           {/* Header */}
-          <h2 className="text-4xl font-bold text-green-700 mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-4">
             BRAND SUMMARY
           </h2>
 
           {/* Sub Header */}
-          <h3 className="font-semibold text-lg text-black mb-6">
+          <h3 className="font-semibold text-base md:text-lg text-black mb-6">
             Industry, Market, and current situation
           </h3>
 
           {/* Text */}
-          <p className="text-gray-700 leading-relaxed text-lg">
+          <p className="text-gray-700 leading-relaxed text-base md:text-lg">
             Organic Power 2020 was established to conduct
             a business of buying and selling agricultural
             products. All types, all formats, complete set.
@@ -84,23 +84,23 @@ export default function Brand() {
             className="mb-12"
           >
 
-            <h2 className="text-4xl font-bold text-green-700 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-4">
               VISION
             </h2>
 
-            <h3 className="font-semibold text-lg mb-1">
+            <h3 className="font-semibold text-base md:text-lg mb-1">
               คลังสินค้าเกษตร ของเอเชีย
             </h3>
 
-            <p className="mb-6 text-gray-800">
+            <p className="mb-6 text-gray-800 text-sm md:text-base">
               Asia's agricultural Warehouse
             </p>
 
-            <h3 className="font-semibold text-lg mb-1">
+            <h3 className="font-semibold text-base md:text-lg mb-1">
               สร้างมาตราฐานสินค้าเกษตรเเละอุสหกรรมการเกษตรด้วยความยั่งยืน
             </h3>
 
-            <p className="text-gray-800">
+            <p className="text-gray-800 text-sm md:text-base">
               Create standards for agricultural products
               and the agricultural industry with sustainability.
             </p>
@@ -116,11 +116,11 @@ export default function Brand() {
             transition={{ delay: 0.5 }}
           >
 
-            <h2 className="text-4xl font-bold text-green-700 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-green-700 mb-4">
               MISSION
             </h2>
 
-            <p className="text-gray-700 leading-relaxed">
+            <p className="text-gray-700 leading-relaxed text-sm md:text-base">
 
               Operate integrated agricultural and agricultural industry
               businesses. Sincerely To create quality and agricultural

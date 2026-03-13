@@ -20,7 +20,7 @@ export default function Vision() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="text-5xl font-bold mb-6 text-green-400"
+            className="text-4xl md:text-5xl font-bold mb-6 text-green-400"
           >
             OUR VISION
           </motion.h2>
@@ -30,7 +30,7 @@ export default function Vision() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-xl text-neutral-300 max-w-3xl mx-auto"
+            className="text-lg md:text-xl text-neutral-300 max-w-3xl mx-auto"
           >
             Discover our journey in creating sustainable agricultural standards across Asia
           </motion.p>

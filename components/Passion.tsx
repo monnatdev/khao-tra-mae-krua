@@ -16,11 +16,11 @@ export default function Passion() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-5xl font-bold mb-6 text-green-400">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-400">
             OUR PASSION
           </h2>
 
-          <p className="text-xl text-neutral-300">
+          <p className="text-lg md:text-xl text-neutral-300">
             Driven by quality and commitment to excellence
           </p>
         </motion.div>
@@ -41,7 +41,7 @@ export default function Passion() {
             <div className="absolute inset-0 bg-black/50 rounded-2xl" />
 
             {/* Text Overlay */}
-            <div className="absolute inset-0 flex items-center justify-center p-8">
+            <div className="absolute inset-0 flex items-center justify-center p-4 md:p-8">
               <motion.div
                 initial={{ opacity: 0, scale: 0.9 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -49,10 +49,10 @@ export default function Passion() {
                 viewport={{ once: true }}
                 className="text-center max-w-4xl"
               >
-                <h3 className="text-4xl md:text-6xl font-bold text-green-400 mb-6">
+                <h3 className="text-3xl md:text-4xl lg:text-6xl font-bold text-green-400 mb-4 md:mb-6">
                   Passion
                 </h3>
-                <p className="text-xl md:text-3xl font-semibold text-white leading-relaxed">
+                <p className="text-lg md:text-xl lg:text-3xl font-semibold text-white leading-relaxed">
                   "I would like people to enjoy high-quality, export-standard Thai rice at an affordable price."
                 </p>
               </motion.div>
