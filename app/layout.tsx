@@ -14,6 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="th">
+      <head>
+        <meta name="google-site-verification" content="L-ALEmO6ay0MzWB5RbznsGFyg21-Mc2mCyabG-6Y3_w" />
+      </head>
       <body>
         <SmoothScroll>
           {children}
