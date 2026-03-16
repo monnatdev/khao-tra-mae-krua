@@ -3,8 +3,8 @@ import './globals.css'
 import SmoothScroll from '@/components/SmoothScroll'
 
 export const metadata: Metadata = {
-  title: 'Landing Page',
-  description: 'Simple landing page built with Next.js and Tailwind CSS',
+  title: 'ข้าวตราเเม่ครัว ข้าวคุณภาพ เพื่อคนสำคัญ',
+  description: 'ข้าวตราเเม่ครัว ข้าวคุณภาพสูง ได้รับมาตราสากล เพื่อการส่งออก',
 }
 
 export default function RootLayout({

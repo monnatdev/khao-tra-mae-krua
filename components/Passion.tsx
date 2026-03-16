@@ -5,7 +5,7 @@ import ParallaxImage from "./ParallaxImage"
 
 export default function Passion() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-neutral-950 text-white py-20 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-[#F8F6F1] py-20 overflow-hidden">
       <div className="max-w-7xl w-full px-6">
         
         {/* Header */}
@@ -16,12 +16,12 @@ export default function Passion() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-400">
+          <h2 className="text-4xl md:text-5xl font-bold mb-6 text-green-700">
             OUR PASSION
           </h2>
 
-          <p className="text-lg md:text-xl text-neutral-300">
-            Driven by quality and commitment to excellence
+          <p className="text-lg md:text-xl text-gray-700">
+             I would like people to enjoy…
           </p>
         </motion.div>
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 export default function Vision() {
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-neutral-900 to-neutral-800 text-white py-20">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-b from-white to-neutral-50 py-20">
       <div className="max-w-7xl w-full px-6">
         
         {/* Header Section */}
@@ -20,7 +20,7 @@ export default function Vision() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold mb-6 text-green-400"
+            className="text-4xl md:text-5xl font-bold mb-6 text-green-700"
           >
             OUR VISION
           </motion.h2>
@@ -30,7 +30,7 @@ export default function Vision() {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7, delay: 0.2 }}
             viewport={{ once: true }}
-            className="text-lg md:text-xl text-neutral-300 max-w-3xl mx-auto"
+            className="text-lg md:text-xl text-gray-700 max-w-3xl mx-auto"
           >
             Discover our journey in creating sustainable agricultural standards across Asia
           </motion.p>
@@ -85,7 +85,7 @@ export default function Vision() {
           viewport={{ once: true }}
           className="text-center mt-12"
         >
-          <p className="text-neutral-400 text-sm">
+          <p className="text-gray-600 text-sm">
             Watch our story unfold
           </p>
         </motion.div>
